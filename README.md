@@ -7,13 +7,13 @@ of a Nix flake.
 
 ## tl;dr
 
- 0. Configure nix (this is an exercise left to the reader)
-     a. Install with the nix-installer
-     b. Configure nix-direnv
- 1. `direnv allow` in project repository
- 2. Plug in an Arduino & find its port
- 3. Change `ARDUINO_PORT` in `.env` file (e.g. `ARDUINO_PORT=/dev/ttyACM0`)
- 4. `make program`
+0. Configure nix (this is an exercise left to the reader)
+   1. Install with the nix-installer
+   2. Configure nix-direnv
+1. `direnv allow` in project repository
+2. Plug in an Arduino & find its port
+3. Change `ARDUINO_PORT` in `.env` file (e.g. `ARDUINO_PORT=/dev/ttyACM0`)
+4. `make program`
 
 
 ## References
