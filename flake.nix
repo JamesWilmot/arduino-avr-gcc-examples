@@ -16,6 +16,10 @@
     in {
       devShells.default = pkgs.mkShell {
         buildInputs = [
+          pkgs.python311
+          pkgs.python311Packages.grip
+          pkgs.pkgsCross.avr.buildPackages.gcc8
+          pkgs.pkgsCross.avr.buildPackages.avrdude
         ];
 
         shellHook = ''
