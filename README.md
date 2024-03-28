@@ -1,9 +1,11 @@
-Arduino *Hello world, blink* with added Flake
-=============================================
+Arduino *Hello world, blink* built by gcc with added Flake
+==========================================================
 
 This project is a very basic demonstration of how to compile and flash an
-Arduino Uno program utilising the `avr-\*` tooling in the context
+Arduino Uno program utilising the `avr-*` tooling in the context
 of a Nix flake.
+
+![](demo.gif)
 
 ## tl;dr
 
@@ -22,6 +24,6 @@ of a Nix flake.
 
 [My Nix Journey - Use Nix on Ubuntu](https://tech.aufomm.com/my-nix-journey-use-nix-with-ubuntu/)
 
-https://github.com/shepmaster/rust-arduino-blink-led-no-core/tree/master
+[shepmaster/rust-arduino-blink-led-no-core](https://github.com/shepmaster/rust-arduino-blink-led-no-core/tree/master)
 
 
