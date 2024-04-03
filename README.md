@@ -1,5 +1,5 @@
-Arduino *Hello world, blink* built by gcc with added Flake
-==========================================================
+Arduino examples for avr-gcc with added Flake
+=============================================
 
 This project is a very basic demonstration of how to compile and flash an
 Arduino Uno program utilising the `avr-*` tooling in the context
